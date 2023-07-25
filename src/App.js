@@ -1,4 +1,3 @@
-// App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Login from "./Components/Auth/Login";
@@ -8,7 +7,7 @@ import PrivateRoute from "./Components/Common/PrivateRoute";
 
 const App = () => {
   return (
-    <Router>
+    <Router role="main">
       <Switch>
         <Route exact path="/" component={Login} />
         <PrivateRoute path="/admin/dashboard" component={AdminDashboard} role="admin" />
