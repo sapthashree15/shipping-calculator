@@ -1,0 +1,23 @@
+{
+    "freightRates": [
+      {
+        "destination": "Country A",
+        "rate": 10.5
+      },
+      {
+        "destination": "Country B",
+        "rate": 12.0
+      }
+    ],
+    "packageSizes": [
+      {
+        "size": "Small",
+        "dimension": "10x10x10"
+      },
+      {
+        "size": "Medium",
+        "dimension": "20x20x20"
+      }
+    ]
+  }
+  
